@@ -11,11 +11,11 @@ The objective is to discover meaningful movement patterns without using the prov
 ## Objectives
 
 - Explore and preprocess HAR sensor data
-- Apply feature scaling
-- Build K-Means clustering models
+- Apply feature scaling using StandardScaler
+- Train K-Means clustering models
 - Determine the optimal number of clusters
 - Evaluate clustering performance
-- Interpret discovered behavioral patterns
+- Interpret discovered human activity patterns
 
 ---
 
@@ -42,17 +42,17 @@ The objective is to discover meaningful movement patterns without using the prov
 
 ## Dataset
 
-This project uses the Human Activity Recognition (HAR) Master Dataset.
+The dataset is **not included** in this repository because it exceeds GitHub's recommended file size.
 
-Place the dataset inside the `data/` directory before running the notebook.
+If you have access to the course dataset, place it inside the `data/` directory before running the notebook.
 
 ---
 
 ## Repository Structure
 
 ```
-data/
 notebooks/
+data/
 README.md
 requirements.txt
 ```
@@ -61,7 +61,7 @@ requirements.txt
 
 ## Future Improvements
 
-- Apply DBSCAN clustering
+- Compare with DBSCAN clustering
 - Compare with Hierarchical Clustering
-- Perform PCA for dimensionality reduction
-- Evaluate additional clustering metrics
+- Apply PCA for dimensionality reduction
+- Explore additional cluster validation metrics
